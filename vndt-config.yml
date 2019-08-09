@@ -1,2 +1,10 @@
+env:
+  - 1Y2npYPTXOuqBZhAtHhAtauIWptzxHtDyI/Q1y1kaiI=
+
+before_build:
+  - echo ${MY_NAME}
+  
 build:
   - mvn install
+  
+after_build:
