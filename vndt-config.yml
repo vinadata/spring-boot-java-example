@@ -1,8 +1,7 @@
 env:
-  - 1Y2npYPTXOuqBZhAtHhAtauIWptzxHtDyI/Q1y1kaiI=
-
+  - iIBcNFHFf0viOT74PJ/Cp6uIWptzxHtDyI/Q1y1kaiI=
 before_build:
-  - echo ${MY_NAME}
+  - echo ${COMPANY}
   
 build:
   - mvn install
